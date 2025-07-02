@@ -7,3 +7,8 @@ plugins {
     alias(libs.plugins.composeCompiler) apply false
     alias(libs.plugins.kotlinMultiplatform) apply false
 }
+
+allprojects {
+    group = "digital.guimauve.ui"
+    version = "0.0.1"
+}
